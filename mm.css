@@ -21,13 +21,41 @@ body {
 .yellowbackground {
 	background-color: #ffff00;
 }
+.yellowbackgroundblueborder {
+    background-color: #ffff00;
+    border:5px solid blue;
+    padding:5px;
+    margin: 15px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.yellowbackgroundbluebordercorners {
+    background-color: #ffff00;
+    border:5px solid blue;
+    padding:5px;
+    margin: 15px;
+    
+}
+#beigeboxblackborder {
+    background-color: #f5f5dc;
+    border:5px solid brown;
+    width: 125px;
+    padding:5px;
+    margin: 15px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
 .greenbackground {
 	background-color: #98FB98;
 }
 .partc {
 	background-color: #ffff00;
 	border: 1px solid black;
-	margin: 15;
+	margin: 15px;
 }
 #yellowblackborder {
     width: 500px;
@@ -43,7 +71,6 @@ body {
     margin: 15px;
     background-color:#FFFFE0;
 }
-
 #yellowbigblackborder {
     width: 700px;
     padding: 10px; 
@@ -65,3 +92,52 @@ body {
     margin: 10px;
     background-color:#ffff00;
  }
+ #topyellowandblue {
+    width: 200px;
+    padding: 25px; 
+    border: 5px solid blue;
+    margin: 1px;
+    background-color:#ffff00;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+#yellowbackgroundblueline {
+    background-color: #ffff00;
+    width: 1000px;
+    padding: 5px; 
+    border: 2px solid blue;
+    margin: 1px;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+#aaronshoversbox {
+    background-color: #FFFFE0;
+    width: 400px;
+    padding: 15px; 
+    border: 5px double blue;
+    margin: 5px
+}
+#blueboxshadow {
+    box-shadow: 10px 10px 0px #000080;
+}
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.left {
+    float: left;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
