@@ -1,8 +1,17 @@
 body {
 	font-family:Arial;
 }
+ul li{
+    list-style-type: decimal;
+}
+ol li{
+    list-style-type: upper-alpha;
+}
+.indent {
+    text-indent: 50px;
+}
 .red {
-	color:#f00;
+	color:#B30B3D;
 }
 .green {
 	color:#008000;
@@ -12,11 +21,16 @@ body {
 	color:#000080;
 }
 .purple {
-	color:#800080;
+	color:#8B0A50;
 }
 .yellow {
 	color:#ffff00;
-
+}
+.lightbluebackground {
+    background-color: #a0f2f9;
+}
+.paleyellowbackground {
+    background-color:#FFFFE0;
 }
 .yellowbackground {
 	background-color: #ffff00;
@@ -36,18 +50,6 @@ body {
     border:5px solid blue;
     padding:5px;
     margin: 15px;
-    
-}
-#beigeboxblackborder {
-    background-color: #f5f5dc;
-    border:5px solid brown;
-    width: 125px;
-    padding:5px;
-    margin: 15px;
-    border-top-left-radius:10px ;
-    border-top-right-radius:10px;
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius:10px;
 }
 .greenbackground {
 	background-color: #98FB98;
@@ -59,13 +61,13 @@ body {
 }
 #yellowblackborder {
     width: 500px;
-    padding: 10px; 
+    padding: 5px; 
     border: 2px solid black;
     margin: 15px;
     background-color:#ffff00;
 }
-#paleyellowblackborder {
-	width: 1100px;
+#newphilosophyoflife {
+	width: 800px;
     padding: 10px; 
     border: 2px solid black;
     margin: 15px;
@@ -73,16 +75,16 @@ body {
 }
 #yellowbigblackborder {
     width: 700px;
-    padding: 10px; 
-    border: 2px solid black;
-    margin: 15px;
+    padding: 1px; 
+    border: 1px solid black;
+    margin: auto;
     background-color:#ffff00;
 }
 #yellowsansborder {
     width: 350px;
-    padding: 10px; 
+    padding: 0px; 
     border: 0px
-    margin: 15px;
+    margin: auto;
     background-color:#ffff00;
 }
 #yellowbackground {
@@ -92,20 +94,70 @@ body {
     margin: 10px;
     background-color:#ffff00;
  }
- #topyellowandblue {
+ #welcometomilitant {
     width: 200px;
     padding: 25px; 
     border: 5px solid blue;
-    margin: 1px;
+    margin: 10px;
+    float:left;
+    box-shadow: 0px 0px 25px #000080;
     background-color:#ffff00;
     border-top-left-radius:15px ;
     border-top-right-radius:15px;
     border-bottom-left-radius:15px;
     border-bottom-right-radius:15px;
 }
-#yellowbackgroundblueline {
+#withlinkstogoaltests {
+    background-color:   #00FFFF;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    border: 5px solid white;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#clickherebooks {
+    background-color: #f5f5dc;
+    float: left;
+    border:5px solid #946c56;
+    width: 200px;
+    padding:5px;
+    margin: 5px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#clickherecontact {
+    background-color: #f5f5dc;
+    float: left;
+    border:5px solid #946c56;
+    width: 150px;
+    padding:5px;
+    margin: 5px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#clickheretoexit {
+    width: 175px;
+    padding: 5px;
+    border: 1px solid red;
+    margin: 10px;
+    float: left;
+    background-color: #FFE3EB;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#forpeoplewhodontknow {
     background-color: #ffff00;
-    width: 1000px;
+    width: 750px;
     padding: 5px; 
     border: 2px solid blue;
     margin: 1px;
@@ -113,13 +165,6 @@ body {
     border-right-style: none;
     border-bottom-style: solid;
     border-left-style: none;
-}
-#aaronshoversbox {
-    background-color: #FFFFE0;
-    width: 400px;
-    padding: 15px; 
-    border: 5px double blue;
-    margin: 5px
 }
 #blueboxshadow {
     box-shadow: 10px 10px 0px #000080;
@@ -140,4 +185,145 @@ body {
 .justify {
     text-align: justify;
     text-justify: inter-word;
+}
+#header {
+    width: 100%;
+    background-color: white;
+    height: 100px;
+}
+#containerheader {
+    width: 800px;
+    height: 100px;
+    margin:0px;
+    padding:0px;
+    border: 0;
+}
+#containerleft {
+    width: 500px;
+    height: auto;
+    background-color: ;
+    float: left;
+    margin: auto;
+    padding:0px;
+    padding: 0px;
+}
+#containerright {
+    width: 500px;
+    background-color: ;
+    float: right;
+    margin: auto;
+}
+#containeraaronpicture {
+    width: 700px;
+    height: 200px;
+    margin: auto;
+    float: auto;
+    padding: 0px;
+    border: 5px;
+    background-color: ;
+}
+#aaronshoversbox {
+    background-color: #FFFFE0;
+    width: 400px;
+    padding: 5px; 
+    border: 5px double blue;
+    box-shadow: 5px 5px 0px #000080;
+    margin: 5px;
+}
+#containerpartconclusion {
+    width: 800px;
+    height: 100px;
+    margin:0px;
+    padding:0px;
+    border: 0;
+    background-color: ;
+}
+#clickherebooks {
+    background-color: #f5f5dc;
+    float: left;
+    border:5px solid #946c56;
+    width: 175px;
+    height: auto;
+    padding:5px;
+    margin: 25px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#tocontactus {
+    background-color: #f5f5dc;
+    float: left;
+    border:5px solid #946c56;
+    width: 125px;
+    height: auto;
+    padding:5px;
+    margin: 25px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#returntohomepage {
+    background-color: #FFFFE0;
+    width: 275px;
+    height: 25px;
+    padding: 1px; 
+    float: left;
+    border: 5px double blue;
+    margin: 25px;
+}
+#whatwillthisnew {
+    background-color: #98FB98;
+    width: 400px;
+    height: auto;
+    float: center;
+    border: none;
+    margin: 0px;
+}
+#andthatswhy {
+    width: 700px;
+    height: auto;
+    float:center;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #ADD8E6;
+}
+#inotherwords {
+    width: 700px;
+    height: auto;
+    float:center;
+    margin: 5px;
+    padding: 5px;
+    border-color: 1px solid black
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: #ffffff;
+}
+#orsnailmail {
+    width: 300px;
+    height: auto;
+    float: center;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #946c56;
+    background-color: #F4F9A0
+}
+#finalreturntohomepage {
+    background-color: #FFFFE0;
+    width: auto;
+    height: 25px;
+    padding: 1px; 
+    float: left;
+    border: 5px double blue;
+    margin: 25px;
+}
+#containercenter {
+    width: 500px;
+    background-color: ;
+    float: center;
+    margin: auto;
 }
