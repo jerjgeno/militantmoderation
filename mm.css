@@ -155,9 +155,10 @@ ol li{
 #clickheretoexit {
     width: 175px;
     padding: auto;
-    border: 1px double red;
+    border: 5px double red;
     margin: auto;
     float: left;
+   box-shadow: inset 0px 3px 15px 0px rgba(0,0,0,0.75);
     background-color: #FFE3EB;
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
@@ -166,10 +167,10 @@ ol li{
 }
 #forpeoplewhodontknow {
     background-color: #ffff00;
-    width: 750px;
+    width: 800px;
     padding: 5px; 
     border: 2px solid blue;
-    margin: 1px;
+    margin: auto;
     border-top-style: solid;
     border-right-style: none;
     border-bottom-style: solid;
@@ -196,19 +197,19 @@ ol li{
     text-justify: inter-word;
 }
 #header {
-    width: 100%;
+    width: 800px;
     background-color: white;
     height: 100px;
 }
 #containerheader {
-    width: 100%;
+    width: 800px;
     height: 100px;
     margin:0px;
     padding:0px;
     border: 0;
 }
 #containerleft {
-    width: 500px;
+    width:500px;
     height: auto;
     background-color:  ;
     float: left;
@@ -284,7 +285,7 @@ ol li{
     width: auto;
     height: auto;
     padding:5px;
-    margin: auto;
+    margin: 25px;
     border-top-left-radius:10px ;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
@@ -297,7 +298,7 @@ ol li{
     width: auto;
     height: auto;
     padding:5px;
-    margin: auto;
+    margin: 25px;
     border-top-left-radius:10px ;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
@@ -305,12 +306,12 @@ ol li{
 }
 #returntohomepage {
     background-color: #FFFFE0;
-    width: 275px;
-    height: 25px;
+    width: auto;
+    height: auto;
     padding: 1px; 
     float: right;
     border: 5px double blue;
-    margin: 25px;
+    margin: 0px;
 }
 #whatwillthisnew {
     background-color: #98FB98;
