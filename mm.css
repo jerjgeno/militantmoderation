@@ -241,10 +241,12 @@ ol li{
 }
 #containerright {
     width: auto;
+    height: auto;
     position: relative;
     background-color: ;
     float: right;
     margin-top: 70px;
+    background-color: blue;
 }
 #containeraaronpicture {
     width: 700px;
@@ -270,15 +272,18 @@ ol li{
 #aaronshoversbox {
     background-color: #FFFFE0;
     width: 400px;
+    height: auto;
     margin-left: 50px;
     padding: 5px; 
     border: 5px double blue;
+    background-color: ;
     box-shadow: 5px 5px 0px #000080;
     
 }
 #aaronshoversboxcontainer {
     background-color: ;
     width: 400px;
+    height: 200px;
     float:left;
     padding: 5px; 
     border: ;
@@ -286,7 +291,7 @@ ol li{
     margin: auto;
 }
 #threepartindex {
-    width: auto;
+    width: 800px;
     float:right;
     margin: auto;
     height: auto;
@@ -352,7 +357,15 @@ ol li{
     margin: 5px;
     padding: 5px;
     border: 1px solid black;
-    background-color: #ADD8E6;
+    background-image: linear-gradient(bottom, #ffffff 50%, #ADD8E6  50%);
+background-image: -o-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
+background-image: -moz-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
+background-image: -webkit-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
+background-image: -ms-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
+    
+    color: #003366;
+    display: block;
+    display: inline-block;
 }
 #inotherwords {
     width: 700px;
