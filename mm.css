@@ -66,7 +66,7 @@ ol li{
 	margin: 15px;
 }
 #yellowblackborder {
-    width: 500px;
+    width: auto;
     height:auto;
     float: center;
     padding: 5px; 
@@ -82,10 +82,11 @@ ol li{
     background-color:#FFFFE0;
 }
 #yellowbigblackborder {
-    width: 700px;
+    width: auto;
     padding: 1px; 
     border: 1px solid black;
     margin: auto;
+    float: center;
     background-color:#ffff00;
 }
 #yellowsansborder {
@@ -103,8 +104,9 @@ ol li{
     background-color:#ffff00;
  }
  #welcometomilitant {
-    width: 200px;
-    padding: 25px; 
+    width: auto;
+    padding-left: 10px; 
+    padding-right: 10px;
     border: 5px solid blue;
     margin: 10px;
     float:left;
@@ -114,51 +116,72 @@ ol li{
     border-top-right-radius:15px;
     border-bottom-left-radius:15px;
     border-bottom-right-radius:15px;
+
 }
 #withlinkstogoaltests {
     background-color: #00FFFF;
-    width: 200px;
+    width: auto;
+    height: auto;
     padding: 5px;
     margin: 25px;
     float: left;
+    position: relative; 
+    margin-top: 50px; 
+    left: 5px;
     border: 5px solid white;
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
     border-bottom-right-radius:5px;
     box-shadow: 0px 0px 15px #D3D3D3;
+
 }
 #clickherebooks {
-    background-color: #f5f5dc;
+    background-color: #FFA500;
     float: left;
     border:5px solid #946c56;
-    width: 200px;
+    width: auto;
     padding:5px;
-    margin: 5px;
-    border-top-left-radius:10px ;
+    margin: auto;
+    border-top-left-radius:10px;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
 }
 #clickherecontact {
-    background-color: #f5f5dc;
+    background-color: #FFA500;
     float: left;
     border:5px solid #946c56;
-    width: 150px;
+    width: auto;
     padding:5px;
-    margin: 5px;
-    border-top-left-radius:10px ;
+    margin: 25px;
+    border-top-left-radius:10px;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
 }
-#clickheretoexit {
-    width: 175px;
+#clickheretoexit1 {
+    width: auto;
     padding: auto;
     border: 5px double red;
-    margin: auto;
+    position: relative; 
+    margin-top: -90px; 
+    margin-left: 0px;
+    right: 0px;
     float: left;
-   box-shadow: inset 0px 3px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 3px 15px 0px rgba(0,0,0,0.75);
+    background-color: #FFE3EB;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#clickheretoexit {
+    width: auto;
+    padding: auto;
+    border: 5px double red;
+    float: left;
+    box-shadow: inset 0px 3px 15px 0px rgba(0,0,0,0.75);
     background-color: #FFE3EB;
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
@@ -167,7 +190,7 @@ ol li{
 }
 #forpeoplewhodontknow {
     background-color: #ffff00;
-    width: 800px;
+    width: auto;
     padding: 5px; 
     border: 2px solid blue;
     margin: auto;
@@ -202,20 +225,19 @@ ol li{
     height: 100px;
 }
 #containerheader {
-    width: 800px;
+    width: auto;
     height: 100px;
     margin:0px;
     padding:0px;
     border: 0;
 }
 #containerleft {
-    width:500px;
+    width: auto;
     height: auto;
-    background-color:  ;
+    background-color: ;
     float: left;
     margin: auto;
     padding:0px;
-    padding: 0px;
 }
 #containerright {
     width: 500px;
@@ -238,6 +260,7 @@ ol li{
     padding:5px;
     margin: -15px;
     float: right;
+    width: auto;
     border-top-left-radius:10px ;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
@@ -246,11 +269,11 @@ ol li{
 #aaronshoversbox {
     background-color: #FFFFE0;
     width: 400px;
-    float:left;
+    margin-left: 50px;
     padding: 5px; 
     border: 5px double blue;
     box-shadow: 5px 5px 0px #000080;
-    margin: auto;
+    
 }
 #aaronshoversboxcontainer {
     background-color: ;
@@ -271,7 +294,7 @@ ol li{
     background-color: ;
 }
 #containerpartconclusion {
-    width: 800px;
+    width: auto;
     height: 100px;
     margin:0px;
     padding:0px;
@@ -279,7 +302,7 @@ ol li{
     background-color: ;
 }
 #clickherebooks {
-    background-color: #f5f5dc;
+    background-color: #FFA500;
     float: left;
     border:5px solid #946c56;
     width: auto;
@@ -322,7 +345,7 @@ ol li{
     margin: 0px;
 }
 #andthatswhy {
-    width: 700px;
+    width: auto;
     height: auto;
     float:center;
     margin: 5px;
@@ -344,7 +367,7 @@ ol li{
     background-color: #ffffff;
 }
 #orsnailmail {
-    width: 300px;
+    width: 400px;
     height: auto;
     float: center;
     margin: 15px;
