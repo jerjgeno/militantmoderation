@@ -123,11 +123,10 @@ ol li{
     width: auto;
     height: auto;
     padding: 5px;
-    margin: 25px;
+    margin-right: 50px;
+    margin-top: -30px;
     float: left;
     position: relative; 
-    margin-top: 50px; 
-    left: 5px;
     border: 5px solid white;
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
@@ -165,10 +164,11 @@ ol li{
     padding: auto;
     border: 5px double red;
     position: relative; 
-    margin-top: -90px; 
+    margin-bottom: -250px; 
+    margin-top: -70px;
     margin-left: 0px;
-    right: 0px;
-    float: left;
+    margin-right: 0px;
+    float: right;
     box-shadow: inset 0px 3px 15px 0px rgba(0,0,0,0.75);
     background-color: #FFE3EB;
     border-top-left-radius:5px ;
@@ -240,10 +240,11 @@ ol li{
     padding:0px;
 }
 #containerright {
-    width: 500px;
+    width: auto;
+    position: relative;
     background-color: ;
     float: right;
-    margin: auto;
+    margin-top: 70px;
 }
 #containeraaronpicture {
     width: 700px;
@@ -315,7 +316,7 @@ ol li{
     border-bottom-right-radius:10px;
 }
 #tocontactus {
-    background-color: #f5f5dc;
+    background-color: #FFA500;
     float: left;
     border:5px solid #946c56;
     width: auto;
