@@ -135,7 +135,7 @@ ol li{
     margin: 10px;
     float:left;
     box-shadow: 0px 0px 25px #000080;
-    background-color:#ffff00;
+    background-color: rgb(255, 255, 84);
     border-top-left-radius:15px ;
     border-top-right-radius:15px;
     border-bottom-left-radius:15px;
@@ -143,9 +143,9 @@ ol li{
 
 }
 #withlinkstogoaltests {
-    background-color: #00FFFF;
-    width: auto;
-    height: auto;
+    background-color: rgb(195, 255, 255);
+    width: 186px;
+    height: 35px;
     padding: 5px;
     margin-right: 50px;
     margin-top: -30px;
@@ -178,9 +178,9 @@ ol li{
 
 }
 #clickherebooks {
-    background-color: #FFA500;
+    background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
+    border:5px rgb (193,152,26);
     width: auto;
     padding:5px;
     margin: auto;
@@ -190,7 +190,7 @@ ol li{
     border-bottom-right-radius:10px;
 }
 #clickherebooksc {
-    background-color: #FFA500;
+    background-color: rgb(255, 244, 164);
     float: left;
     border:5px solid #946c56;
     width: auto;
@@ -202,7 +202,7 @@ ol li{
     border-bottom-right-radius:10px;
 }
 #clickherecontact {
-    background-color: #FFA500;
+    background-color: rgb(255, 244, 164);
     float: left;
     border:5px solid #946c56;
     width: 175px;
@@ -216,7 +216,8 @@ ol li{
     border-bottom-right-radius:10px;
 }
 #clickheretoexit1 {
-    width: auto;
+    width: 90px;
+    height: 35px;
     padding: 0px;
     border: 5px double red;
     position: relative; 
@@ -225,7 +226,7 @@ ol li{
     margin-left: 0px;
     margin-right: 0px;
     float: right;
-    background-color: #FFE3EB;
+    background-color: rgb(255, 243, 227);
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
@@ -236,7 +237,7 @@ ol li{
     padding: auto;
     border: 5px double red;
     float: left;
-    background-color: #FFE3EB;
+    background-color: rgb(255, 243, 227);
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
@@ -250,7 +251,7 @@ ol li{
     padding: 0px;
     border: 5px double red;
     float: right;
-    background-color: #FFE3EB;
+    background-color: rgb(255, 243, 227);
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
@@ -339,6 +340,7 @@ ol li{
     background-color: ;
     float: right;
     margin-top: 70px;
+    margin-bottom: 0px;
     background-color: ;
 }
 #containerrightend {
@@ -415,7 +417,6 @@ ol li{
     background-color: ;
 }
 #clickherebooks {
-    background-color: #FFA500;
     float: left;
     border:5px solid #946c56;
     width: 200px;
@@ -428,7 +429,7 @@ ol li{
     border-bottom-right-radius:10px;
 }
 #tocontactus {
-    background-color: #FFA500;
+    background-color: rgb(255, 244, 164);
     float: left;
     border:5px solid #946c56;
     width: auto;
@@ -441,7 +442,7 @@ ol li{
     border-bottom-right-radius:10px;
 }
 #returntohomepage {
-    background-color: #FFFFE0;
+    background-color: rgb(255, 255, 84);
     width: auto;
     height: auto;
     padding: 1px; 
@@ -492,12 +493,12 @@ background-image: -ms-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
     height: auto;
     float: center;
     margin: 15px;
-    padding: 5px;
+    padding: 0px;
     border: 1px solid #946c56;
     background-color: #F4F9A0
 }
 #finalreturntohomepage {
-    background-color: #FFFFE0;
+    background-color: rgb(255, 255, 84);
     width: auto;
     height: auto;
     padding: 1px; 
