@@ -66,12 +66,32 @@ ol li{
 	margin: 15px;
 }
 #yellowblackborder {
-    width: auto;
+    width: 500px;
     height:auto;
     float: center;
     padding: 5px; 
-    border: 1px solid black;
+    border: 2px solid blue;
+    margin-top: 730px;
+    background-color:#ffff00;
+}
+#yellowblackborderb {
+    width: 400px;
+    height:auto;
+    float: center;
+    padding: 5px; 
+    border: 2px solid blue;
     margin: 15px;
+    background-color:#ffff00;
+}
+#yellowblackborderc {
+    width: 400px;
+    height:auto;
+    float: center;
+    padding: 0px; 
+    border: 2px solid blue;
+    margin-top: 60px;
+    margin-bottom: -15px;
+    margin-left: 200px;
     background-color:#ffff00;
 }
 #newphilosophyoflife {
@@ -82,10 +102,11 @@ ol li{
     background-color:#FFFFE0;
 }
 #yellowbigblackborder {
-    width: auto;
-    padding: 1px; 
+    width: 700px;
+    padding: 0px; 
     border: 1px solid black;
-    margin: auto;
+    margin-top: -20px;
+    margin-bottom: -20px;
     float: center;
     background-color:#ffff00;
 }
@@ -105,13 +126,16 @@ ol li{
  }
  #welcometomilitant {
     width: auto;
+    height: 120px;
+    padding-top:-5px;
+    padding-bottom:-5px;
     padding-left: 10px; 
     padding-right: 10px;
     border: 5px solid blue;
     margin: 10px;
     float:left;
     box-shadow: 0px 0px 25px #000080;
-    background-color:#ffff00;
+    background-color: rgb(255, 255, 84);
     border-top-left-radius:15px ;
     border-top-right-radius:15px;
     border-bottom-left-radius:15px;
@@ -119,9 +143,9 @@ ol li{
 
 }
 #withlinkstogoaltests {
-    background-color: #00FFFF;
-    width: auto;
-    height: auto;
+    background-color: rgb(195, 255, 255);
+    width: 186px;
+    height: 35px;
     padding: 5px;
     margin-right: 50px;
     margin-top: -30px;
@@ -135,10 +159,28 @@ ol li{
     box-shadow: 0px 0px 15px #D3D3D3;
 
 }
-#clickherebooks {
-    background-color: #FFA500;
+#withlinkstogoaltestsend {
+    background-color: #00FFFF;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-top: -30px;
     float: left;
-    border:5px solid #946c56;
+    position: relative; 
+    border: 5px solid white;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow: 0px 0px 15px #D3D3D3;
+
+}
+#clickherebooks {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px rgb (193,152,26);
     width: auto;
     padding:5px;
     margin: auto;
@@ -147,21 +189,36 @@ ol li{
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
 }
-#clickherecontact {
-    background-color: #FFA500;
+#clickherebooksc {
+    background-color: rgb(255, 244, 164);
     float: left;
     border:5px solid #946c56;
     width: auto;
     padding:5px;
+    margin-top: 15px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#clickherecontact {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #946c56;
+    width: 175px;
+    height: 40px;
+    padding:5px;
     margin: 25px;
+    margin-left:-20px;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
 }
 #clickheretoexit1 {
-    width: auto;
-    padding: auto;
+    width: 90px;
+    height: 35px;
+    padding: 0px;
     border: 5px double red;
     position: relative; 
     margin-bottom: -250px; 
@@ -169,8 +226,7 @@ ol li{
     margin-left: 0px;
     margin-right: 0px;
     float: right;
-    box-shadow: inset 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: #FFE3EB;
+    background-color: rgb(255, 243, 227);
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
@@ -181,8 +237,21 @@ ol li{
     padding: auto;
     border: 5px double red;
     float: left;
-    box-shadow: inset 0px 3px 15px 0px rgba(0,0,0,0.75);
-    background-color: #FFE3EB;
+    background-color: rgb(255, 243, 227);
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#clickheretoexitend {
+    width: 100px;
+    height: 30px;
+    margin-left: 650px;
+    margin-top: -80px;
+    padding: 0px;
+    border: 5px double red;
+    float: right;
+    background-color: rgb(255, 243, 227);
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
@@ -226,17 +295,42 @@ ol li{
 }
 #containerheader {
     width: auto;
-    height: 100px;
+    height: auto;
     margin:0px;
     padding:0px;
-    border: 0;
+    border: 0px;
+}
+#containermiddle {
+    width: auto;
+    height: auto;
+    margin: ;
+    margin-top:30px;
+    padding: 0px;
+    border: 0px;
+    background-color: ;
+}
+#containerbody {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+#containerbodyA {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 #containerleft {
     width: auto;
     height: auto;
     background-color: ;
     float: left;
-    margin: auto;
+    margin-bottom: 0px;
+    margin-top: -25px;
+    margin-left:0px;
     padding:0px;
 }
 #containerright {
@@ -246,12 +340,25 @@ ol li{
     background-color: ;
     float: right;
     margin-top: 70px;
-    background-color: blue;
+    margin-bottom: 0px;
+    background-color: ;
+}
+#containerrightend {
+    width: 800px;
+    height: auto;
+    float: right;
+    position: relative;
+    background-color: ;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background-color: ;
 }
 #containeraaronpicture {
     width: 700px;
     height: auto;
-    margin: 15px;
+    margin-top: -30px;
+    margin-left: 50px;
     float: left;
     padding: 0px;
     border: 0px;
@@ -273,7 +380,8 @@ ol li{
     background-color: #FFFFE0;
     width: 400px;
     height: auto;
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-top: -30px;
     padding: 5px; 
     border: 5px double blue;
     background-color: ;
@@ -288,12 +396,13 @@ ol li{
     padding: 5px; 
     border: ;
     box-shadow: ;
-    margin: auto;
+    margin-bottom: -40px;
 }
 #threepartindex {
     width: 800px;
     float:right;
-    margin: auto;
+    margin-top: -150px;
+    margin-bottom: -150px;
     height: auto;
     padding: auto;
     margin: auto;
@@ -308,11 +417,10 @@ ol li{
     background-color: ;
 }
 #clickherebooks {
-    background-color: #FFA500;
     float: left;
     border:5px solid #946c56;
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 40px;
     padding:5px;
     margin: 25px;
     border-top-left-radius:10px ;
@@ -321,7 +429,7 @@ ol li{
     border-bottom-right-radius:10px;
 }
 #tocontactus {
-    background-color: #FFA500;
+    background-color: rgb(255, 244, 164);
     float: left;
     border:5px solid #946c56;
     width: auto;
@@ -334,13 +442,13 @@ ol li{
     border-bottom-right-radius:10px;
 }
 #returntohomepage {
-    background-color: #FFFFE0;
+    background-color: rgb(255, 255, 84);
     width: auto;
     height: auto;
     padding: 1px; 
     float: right;
     border: 5px double blue;
-    margin: 0px;
+    margin-top: 20px;
 }
 #whatwillthisnew {
     background-color: #98FB98;
@@ -385,12 +493,12 @@ background-image: -ms-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
     height: auto;
     float: center;
     margin: 15px;
-    padding: 5px;
+    padding: 0px;
     border: 1px solid #946c56;
     background-color: #F4F9A0
 }
 #finalreturntohomepage {
-    background-color: #FFFFE0;
+    background-color: rgb(255, 255, 84);
     width: auto;
     height: auto;
     padding: 1px; 
@@ -409,6 +517,16 @@ background-image: -ms-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
     background-color: #98FB98;
     width: auto;
     margin: auto;
+    padding: 5px;
+    float: right;
+    border-radius: 10px
+    
+}
+#indexbluegreenboxb {
+    border: 5px solid blue;
+    background-color: #98FB98;
+    width: auto;
+    margin-left: 400px;
     padding: 5px;
     float: right;
     border-radius: 10px
