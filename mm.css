@@ -205,9 +205,11 @@ ol li{
     background-color: #FFA500;
     float: left;
     border:5px solid #946c56;
-    width: auto;
+    width: 175px;
+    height: 40px;
     padding:5px;
     margin: 25px;
+    margin-left:-20px;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
@@ -300,7 +302,8 @@ ol li{
 #containermiddle {
     width: auto;
     height: auto;
-    margin: 45px;
+    margin: ;
+    margin-top:30px;
     padding: 0px;
     border: 0px;
     background-color: ;
@@ -326,7 +329,7 @@ ol li{
     float: left;
     margin-bottom: 0px;
     margin-top: -25px;
-    margin-left:-40px;
+    margin-left:0px;
     padding:0px;
 }
 #containerright {
@@ -415,8 +418,8 @@ ol li{
     background-color: #FFA500;
     float: left;
     border:5px solid #946c56;
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 40px;
     padding:5px;
     margin: 25px;
     border-top-left-radius:10px ;
