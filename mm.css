@@ -58,7 +58,7 @@ ol li{
     margin: 15px;
 }
 .greenbackground {
-	background-color: #98FB98;
+	background-color: rgb(195, 255, 84);
 }
 .partc {
 	background-color: #ffff00;
@@ -182,7 +182,7 @@ ol li{
 #clickherebooks {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
+    border:5px solid #E2AE11;
     width: 200px;
     height: 40px;
     padding-top:0px;
@@ -193,10 +193,25 @@ ol li{
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
 }
+    #clickherebooksb {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: 200px;
+    height: 40px;
+    padding-top:10px;
+    padding-bottom:5px;
+    margin: 25px;
+    margin-top:30px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
 #clickherebooksfinal {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
+    border:5px solid #E2AE11;
     width: 200px;
     height: 40px;
     padding-top:5px;
@@ -210,7 +225,7 @@ ol li{
 #clickherebooksc {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
+    border:5px solid #E2AE11;
     width: auto;
     padding-top:5px;
     margin-top: 75px;
@@ -222,7 +237,7 @@ ol li{
 #clickherecontact {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
+    border:5px solid #E2AE11;
     width: 175px;
     height: 40px;
     padding-bottom:15px;
@@ -277,11 +292,11 @@ ol li{
     border-bottom-right-radius:5px;
 }
 #forpeoplewhodontknow {
-    background-color: #ffff00;
-    width: auto;
-    padding: 5px; 
-    border: 2px solid blue;
-    margin: auto;
+    background-color: rgb(255, 255, 11);
+    width: 800px;
+    padding: 0px; 
+    border: 1px solid black;
+    margin: 10px;
     border-top-style: solid;
     border-right-style: none;
     border-bottom-style: solid;
@@ -383,11 +398,26 @@ ol li{
     border: 0px;
     background-color: ;
 }
+#forpeoplewho {
+    background-color: rgb(255, 255, 11);
+    border:5px solid blue;
+    width: 800px;
+    height: auto;
+    padding:5px;
+    margin: 0px;
+    float: center;
+    border-color: 1px solid black
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+}
 #whatismilitant {
     background-color: #ffff00;
     border:5px solid blue;
     padding:5px;
-    margin: -15px;
+    margin: -20px;
+    margin-bottom: 25px;
     float: right;
     width: auto;
     border-top-left-radius:10px ;
@@ -438,7 +468,7 @@ ol li{
 #tocontactus {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
+    border:5px solid #E2AE11;
     width: auto;
     height: auto;
     padding:5px;
@@ -449,10 +479,24 @@ ol li{
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
 }
+#tocontactusb {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: auto;
+    height: auto;
+    padding:5px;
+    margin: 25px;
+    margin-top: 55px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
 #tocontactusend {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
+    border:5px solid #E2AE11;
     width: auto;
     height: auto;
     padding:5px;
