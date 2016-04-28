@@ -1,61 +1,127 @@
+head {
+    max-width:800px;
+    margin: 0 auto; 
+}
 body {
 	font-family:Arial;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ul li{
+    list-style-type: decimal;
+}
+ol li{
+    list-style-type: upper-alpha;
+}
+.indent {
+    text-indent: 50px;
 }
 .red {
-	color:#f00;
+	color: rgb(146,0,25);
 }
 .green {
-	color:#008000;
+	color: rgb(11,84,1);
 	
 }
 .blue {
-	color:#000080;
+	color: rgb(0,0,192);
 }
 .purple {
-	color:#800080;
+	color: rgb(107,0,108);
 }
 .yellow {
-	color:#ffff00;
-
+	color:rgb(208,199,10);
+}
+.lightbluebackground {
+    background-color: #a0f2f9;
+}
+.paleyellowbackground {
+    background-color: rgb(255,255,153);
 }
 .yellowbackground {
 	background-color: #ffff00;
 }
+.yellowbackgroundblueborder {
+    background-color: #ffff00;
+    border:5px solid blue;
+    padding:5px;
+    margin: 15px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.yellowbackgroundbluebordercorners {
+    background-color: #ffff00;
+    border:5px solid blue;
+    padding:5px;
+    margin: 15px;
+}
 .greenbackground {
-	background-color: #98FB98;
+	background-color: rgb(195, 255, 84);
 }
 .partc {
 	background-color: #ffff00;
 	border: 1px solid black;
-	margin: 15;
+	margin: 15px;
 }
 #yellowblackborder {
-    width: 500px;
-    padding: 10px; 
-    border: 2px solid black;
+    width: auto;
+    height:auto;
+    float: center;
+    padding: 5px; 
+    border: 2px solid blue;
+    margin-top: 730px;
+    background-color:#ffff00;
+}
+#yellowblackborderb {
+    width: 400px;
+    height:auto;
+    float: center;
+    padding: 5px; 
+    border: 2px solid blue;
     margin: 15px;
     background-color:#ffff00;
 }
-#paleyellowblackborder {
-	width: 1100px;
+#yellowblackborderc {
+    width: 400px;
+    height:auto;
+    float: center;
+    padding: 0px; 
+    border: 2px solid blue;
+    margin-top: 60px;
+    margin-bottom: -15px;
+    margin-left: 200px;
+    background-color:#ffff00;
+}
+#newphilosophyoflife {
+	width: auto;
     padding: 10px; 
     border: 2px solid black;
     margin: 15px;
     background-color:#FFFFE0;
 }
-
 #yellowbigblackborder {
+<<<<<<< HEAD
+    width: auto;
+    padding: 1px; 
+    border: 1px solid black;
+    margin: auto;
+=======
     width: 700px;
-    padding: 10px; 
-    border: 2px solid black;
-    margin: 15px;
+    padding: 0px; 
+    border: 1px solid black;
+    margin-top: -20px;
+    margin-bottom: -20px;
+>>>>>>> origin/master
+    float: center;
     background-color:#ffff00;
 }
 #yellowsansborder {
     width: 350px;
-    padding: 10px; 
+    padding: 0px; 
     border: 0px
-    margin: 15px;
+    margin: auto;
     background-color:#ffff00;
 }
 #yellowbackground {
@@ -65,3 +131,553 @@ body {
     margin: 10px;
     background-color:#ffff00;
  }
+ #welcometomilitant {
+    width: auto;
+<<<<<<< HEAD
+=======
+    height: 120px;
+    padding-top:0px;
+    padding-bottom:0px;
+>>>>>>> origin/master
+    padding-left: 10px; 
+    padding-right: 10px;
+    border: 5px solid blue;
+    color: rgb(0,0,192);
+    margin: 10px;
+    margin-bottom:0px;
+    float:left;
+    box-shadow: 0px 0px 25px #000080;
+    background-color: rgb(255, 255, 84);
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+
+}
+#withlinkstogoaltests {
+    background-color: rgb(195, 255, 255);
+    width: 186px;
+    height: 35px;
+    padding: 5px;
+    margin-right: 50px;
+    margin-top: -30px;
+    float: left;
+    position: relative; 
+    border: 5px solid white;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow: 0px 0px 15px #D3D3D3;
+
+}
+#withlinkstogoaltestsend {
+    background-color: #00FFFF;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-top: -30px;
+    float: left;
+    position: relative; 
+<<<<<<< HEAD
+    margin-top: 50px; 
+    left: 5px;
+=======
+>>>>>>> origin/master
+    border: 5px solid white;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    box-shadow: 0px 0px 15px #D3D3D3;
+
+}
+#clickherebooks {
+<<<<<<< HEAD
+    background-color: #FFA500;
+    float: left;
+    border:5px solid #946c56;
+    width: auto;
+    padding:5px;
+    margin: auto;
+    border-top-left-radius:10px;
+=======
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: 200px;
+    height: 40px;
+    padding-top:0px;
+    padding-bottom:15px;
+    margin: 25px;
+    border-top-left-radius:10px ;
+>>>>>>> origin/master
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+<<<<<<< HEAD
+#clickherecontact {
+    background-color: #FFA500;
+    float: left;
+    border:5px solid #946c56;
+    width: auto;
+    padding:5px;
+    margin: 25px;
+    border-top-left-radius:10px;
+=======
+    #clickherebooksb {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: 200px;
+    height: 40px;
+    padding-top:10px;
+    padding-bottom:5px;
+    margin: 25px;
+    margin-top:30px;
+    border-top-left-radius:10px ;
+>>>>>>> origin/master
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+<<<<<<< HEAD
+#clickheretoexit1 {
+    width: auto;
+    padding: auto;
+    border: 5px double red;
+    position: relative; 
+    margin-top: -90px; 
+    margin-left: 0px;
+    right: 0px;
+    float: left;
+    box-shadow: inset 0px 3px 15px 0px rgba(0,0,0,0.75);
+    background-color: #FFE3EB;
+=======
+#clickherebooksfinal {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: 200px;
+    height: 40px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin: 25px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#clickherebooksc {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: auto;
+    padding-top:5px;
+    margin-top: 75px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#clickherecontact {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: 175px;
+    height: 40px;
+    padding-bottom:15px;
+    padding-top:0px;
+    margin: 25px;
+    margin-left:-20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#clickheretoexit1 {
+    width: 90px;
+    height: 35px;
+    padding: 0px;
+    border: 5px double red;
+    position: relative; 
+    margin-bottom: -250px; 
+    margin-top: -70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: right;
+    background-color: rgb(255, 243, 227);
+>>>>>>> origin/master
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#clickheretoexit {
+    width: auto;
+    padding: auto;
+    border: 5px double red;
+    float: left;
+<<<<<<< HEAD
+    box-shadow: inset 0px 3px 15px 0px rgba(0,0,0,0.75);
+    background-color: #FFE3EB;
+=======
+    background-color: rgb(255, 243, 227);
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#clickheretoexitend {
+    width: 100px;
+    height: 30px;
+    margin-left: 650px;
+    margin-top: -80px;
+    padding: 0px;
+    border: 5px double red;
+    float: right;
+    background-color: rgb(255, 243, 227);
+>>>>>>> origin/master
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+#forpeoplewhodontknow {
+<<<<<<< HEAD
+    background-color: #ffff00;
+    width: auto;
+    padding: 5px; 
+    border: 2px solid blue;
+    margin: auto;
+=======
+    background-color: rgb(255, 255, 11);
+    width: 800px;
+    padding: 0px; 
+    border: 1px solid black;
+    margin: 10px;
+>>>>>>> origin/master
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+#blueboxshadow {
+    box-shadow: 10px 10px 0px #000080;
+}
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.left {
+    float: left;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+#header {
+    width: 800px;
+    background-color: white;
+    height: 100px;
+}
+#containerheader {
+    width: auto;
+<<<<<<< HEAD
+    height: 100px;
+=======
+    height: auto;
+>>>>>>> origin/master
+    margin:0px;
+    padding:0px;
+    border: 0px;
+}
+#containermiddle {
+    width: auto;
+    height: auto;
+    margin: ;
+    margin-top:30px;
+    padding: 0px;
+    border: 0px;
+    background-color: ;
+}
+#containerbody {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+#containerbodyA {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+#containerleft {
+    width: auto;
+    height: auto;
+    background-color: ;
+    float: left;
+    margin-bottom: 0px;
+    margin-top: -25px;
+    margin-left:0px;
+    padding:0px;
+}
+#containerright {
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: ;
+    float: right;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    background-color: ;
+}
+#containerrightend {
+    width: 800px;
+    height: auto;
+    float: right;
+    position: relative;
+    background-color: ;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background-color: ;
+}
+#containeraaronpicture {
+    width: 700px;
+    height: auto;
+    margin-top: -30px;
+    margin-left: 50px;
+    float: left;
+    padding: 0px;
+    border: 0px;
+    background-color: ;
+}
+#forpeoplewho {
+    background-color: rgb(255, 255, 11);
+    border:5px solid blue;
+    width: 800px;
+    height: auto;
+    padding:5px;
+    margin: 0px;
+    float: center;
+    border-color: 1px solid black
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+}
+#whatismilitant {
+    background-color: #ffff00;
+    border:5px solid blue;
+    padding:5px;
+    margin: -20px;
+    margin-bottom: 25px;
+    float: right;
+    width: auto;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#aaronshoversbox {
+<<<<<<< HEAD
+    background-color: #FFFFE0;
+    width: 400px;
+    margin-left: 50px;
+=======
+    background-color: rgb(255,255,175);
+    width: 490px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: -30px;
+>>>>>>> origin/master
+    padding: 5px; 
+    border: 5px double blue;
+    background-color: ;
+    box-shadow: 5px 5px 0px #000080;
+    
+}
+#aaronshoversboxcontainer {
+    background-color: ;
+    width: 400px;
+    height: 200px;
+    float:left;
+    padding: 5px; 
+    border: ;
+    box-shadow: ;
+    margin-bottom: -40px;
+}
+#threepartindex {
+    width: 800px;
+    float:right;
+    margin-top: -150px;
+    margin-bottom: -150px;
+    height: auto;
+    padding: auto;
+    margin: auto;
+    background-color: ;
+}
+#containerpartconclusion {
+    width: auto;
+    height: 100px;
+    margin:0px;
+    padding:0px;
+    border: 0;
+    background-color: ;
+}
+<<<<<<< HEAD
+#clickherebooks {
+    background-color: #FFA500;
+=======
+#tocontactus {
+    background-color: rgb(255, 244, 164);
+>>>>>>> origin/master
+    float: left;
+    border:5px solid #E2AE11;
+    width: auto;
+    height: auto;
+    padding:5px;
+    margin: 25px;
+    margin-top: 75px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+<<<<<<< HEAD
+#tocontactus {
+    background-color: #FFA500;
+=======
+#tocontactusb {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: auto;
+    height: auto;
+    padding:5px;
+    margin: 25px;
+    margin-top: 55px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#tocontactusend {
+    background-color: rgb(255, 244, 164);
+>>>>>>> origin/master
+    float: left;
+    border:5px solid #E2AE11;
+    width: auto;
+    height: auto;
+    padding:5px;
+    margin: 25px;
+    margin-top: 20px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#returntohomepage {
+    background-color: rgb(255, 255, 84);
+    width: auto;
+    height: auto;
+    padding: 1px; 
+    float: right;
+    border: 5px double blue;
+    margin-top: 20px;
+}
+#whatwillthisnew {
+    background-color: #98FB98;
+    width: 400px;
+    height: auto;
+    float: center;
+    border: none;
+    margin: 0px;
+}
+#andthatswhy {
+    width: auto;
+    height: auto;
+    float:center;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    background-image: linear-gradient(bottom, #ffffff 50%, #ADD8E6  50%);
+background-image: -o-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
+background-image: -moz-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
+background-image: -webkit-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
+background-image: -ms-linear-gradient(bottom, #ffffff 50%, #ADD8E6 50%);
+    
+    color: #003366;
+    display: block;
+    display: inline-block;
+}
+#inotherwords {
+    width: 700px;
+    height: auto;
+    float:center;
+    margin: 5px;
+    padding: 5px;
+    border-color: 1px solid black
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    background-color: #ffffff;
+}
+#orsnailmail {
+    width: 400px;
+    height: auto;
+    float: center;
+    margin: 15px;
+    padding: 0px;
+    border: 1px solid #946c56;
+    background-color: #F4F9A0
+}
+#finalreturntohomepage {
+    background-color: rgb(255, 255, 84);
+    width: auto;
+    height: auto;
+    padding: 1px; 
+    float: left;
+    border: 5px double blue;
+    margin: 25px;
+}
+#containercenter {
+    width: 500px;
+    background-color: ;
+    float: center;
+    margin: auto;
+}
+#indexbluegreenbox {
+    border: 5px solid blue;
+    background-color: #98FB98;
+    width: auto;
+    margin: auto;
+    padding: 5px;
+    float: right;
+    border-radius: 10px
+    
+}
+#indexbluegreenboxb {
+    border: 5px solid blue;
+    background-color: #98FB98;
+    width: auto;
+    margin-left: 400px;
+    padding: 5px;
+    float: right;
+    border-radius: 10px
+    
+}
