@@ -17,26 +17,26 @@ ol li{
     text-indent: 50px;
 }
 .red {
-	color:#B30B3D;
+	color: rgb(146,0,25);
 }
 .green {
-	color:#008000;
+	color: rgb(11,84,1);
 	
 }
 .blue {
-	color:#000080;
+	color: rgb(0,0,192);
 }
 .purple {
-	color:#8B0A50;
+	color: rgb(107,0,108);
 }
 .yellow {
-	color:#ffff00;
+	color:rgb(208,199,10);
 }
 .lightbluebackground {
     background-color: #a0f2f9;
 }
 .paleyellowbackground {
-    background-color:#FFFFE0;
+    background-color: rgb(255,255,153);
 }
 .yellowbackground {
 	background-color: #ffff00;
@@ -58,7 +58,7 @@ ol li{
     margin: 15px;
 }
 .greenbackground {
-	background-color: #98FB98;
+	background-color: rgb(195, 255, 84);
 }
 .partc {
 	background-color: #ffff00;
@@ -127,12 +127,14 @@ ol li{
  #welcometomilitant {
     width: auto;
     height: 120px;
-    padding-top:-5px;
-    padding-bottom:-5px;
+    padding-top:0px;
+    padding-bottom:0px;
     padding-left: 10px; 
     padding-right: 10px;
     border: 5px solid blue;
+    color: rgb(0,0,192);
     margin: 10px;
+    margin-bottom:0px;
     float:left;
     box-shadow: 0px 0px 25px #000080;
     background-color: rgb(255, 255, 84);
@@ -180,11 +182,42 @@ ol li{
 #clickherebooks {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px rgb (193,152,26);
-    width: auto;
-    padding:5px;
-    margin: auto;
-    border-top-left-radius:10px;
+    border:5px solid #E2AE11;
+    width: 200px;
+    height: 40px;
+    padding-top:0px;
+    padding-bottom:15px;
+    margin: 25px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+    #clickherebooksb {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: 200px;
+    height: 40px;
+    padding-top:10px;
+    padding-bottom:5px;
+    margin: 25px;
+    margin-top:30px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#clickherebooksfinal {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: 200px;
+    height: 40px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin: 25px;
+    border-top-left-radius:10px ;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
@@ -192,10 +225,10 @@ ol li{
 #clickherebooksc {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
+    border:5px solid #E2AE11;
     width: auto;
-    padding:5px;
-    margin-top: 15px;
+    padding-top:5px;
+    margin-top: 75px;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
@@ -204,10 +237,11 @@ ol li{
 #clickherecontact {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
+    border:5px solid #E2AE11;
     width: 175px;
     height: 40px;
-    padding:5px;
+    padding-bottom:15px;
+    padding-top:0px;
     margin: 25px;
     margin-left:-20px;
     border-top-left-radius:10px;
@@ -258,11 +292,11 @@ ol li{
     border-bottom-right-radius:5px;
 }
 #forpeoplewhodontknow {
-    background-color: #ffff00;
-    width: auto;
-    padding: 5px; 
-    border: 2px solid blue;
-    margin: auto;
+    background-color: rgb(255, 255, 11);
+    width: 800px;
+    padding: 0px; 
+    border: 1px solid black;
+    margin: 10px;
     border-top-style: solid;
     border-right-style: none;
     border-bottom-style: solid;
@@ -364,11 +398,26 @@ ol li{
     border: 0px;
     background-color: ;
 }
+#forpeoplewho {
+    background-color: rgb(255, 255, 11);
+    border:5px solid blue;
+    width: 800px;
+    height: auto;
+    padding:5px;
+    margin: 0px;
+    float: center;
+    border-color: 1px solid black
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+}
 #whatismilitant {
     background-color: #ffff00;
     border:5px solid blue;
     padding:5px;
-    margin: -15px;
+    margin: -20px;
+    margin-bottom: 25px;
     float: right;
     width: auto;
     border-top-left-radius:10px ;
@@ -377,8 +426,8 @@ ol li{
     border-bottom-right-radius:10px;
 }
 #aaronshoversbox {
-    background-color: #FFFFE0;
-    width: 400px;
+    background-color: rgb(255,255,175);
+    width: 490px;
     height: auto;
     margin-left: 100px;
     margin-top: -30px;
@@ -416,26 +465,43 @@ ol li{
     border: 0;
     background-color: ;
 }
-#clickherebooks {
+#tocontactus {
+    background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
-    width: 200px;
-    height: 40px;
+    border:5px solid #E2AE11;
+    width: auto;
+    height: auto;
     padding:5px;
     margin: 25px;
+    margin-top: 75px;
     border-top-left-radius:10px ;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
     border-bottom-right-radius:10px;
 }
-#tocontactus {
+#tocontactusb {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #946c56;
+    border:5px solid #E2AE11;
     width: auto;
     height: auto;
     padding:5px;
     margin: 25px;
+    margin-top: 55px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+#tocontactusend {
+    background-color: rgb(255, 244, 164);
+    float: left;
+    border:5px solid #E2AE11;
+    width: auto;
+    height: auto;
+    padding:5px;
+    margin: 25px;
+    margin-top: 20px;
     border-top-left-radius:10px ;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
