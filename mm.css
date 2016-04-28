@@ -81,6 +81,7 @@ ol li{
     padding: 5px; 
     border: 2px solid blue;
     margin: 15px;
+    margin-top:150px;
     background-color:#ffff00;
 }
 #yellowblackborderc {
@@ -89,7 +90,7 @@ ol li{
     float: center;
     padding: 0px; 
     border: 2px solid blue;
-    margin-top: 60px;
+    margin-top: 200px;
     margin-bottom: -15px;
     margin-left: 200px;
     background-color:#ffff00;
@@ -126,9 +127,9 @@ ol li{
  }
  #welcometomilitant {
     width: auto;
-    height: 120px;
-    padding-top:0px;
-    padding-bottom:0px;
+    height: 80px;
+    padding-top:5px;
+    padding-bottom:5px;
     padding-left: 10px; 
     padding-right: 10px;
     border: 5px solid blue;
@@ -147,13 +148,13 @@ ol li{
 #withlinkstogoaltests {
     background-color: rgb(195, 255, 255);
     width: 186px;
-    height: 35px;
+    height: 38px;
     padding: 5px;
     margin-right: 50px;
-    margin-top: -30px;
+    margin-top: -50px;
     float: left;
     position: relative; 
-    border: 5px solid white;
+    border: 5px groove white;
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
@@ -171,7 +172,7 @@ ol li{
     margin-top: -30px;
     float: left;
     position: relative; 
-    border: 5px solid white;
+    border: 5px groove white;
     border-top-left-radius:5px ;
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
@@ -182,7 +183,7 @@ ol li{
 #clickherebooks {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #E2AE11;
+    border:5px groove #E2AE11;
     width: 200px;
     height: 40px;
     padding-top:0px;
@@ -196,7 +197,7 @@ ol li{
     #clickherebooksb {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #E2AE11;
+    border:5px groove #E2AE11;
     width: 200px;
     height: 40px;
     padding-top:10px;
@@ -211,12 +212,13 @@ ol li{
 #clickherebooksfinal {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #E2AE11;
+    border:5px groove #E2AE11;
     width: 200px;
     height: 40px;
     padding-top:5px;
     padding-bottom:5px;
     margin: 25px;
+    margin-top:20px;
     border-top-left-radius:10px ;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
@@ -225,7 +227,7 @@ ol li{
 #clickherebooksc {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #E2AE11;
+    border:5px groove #E2AE11;
     width: auto;
     padding-top:5px;
     margin-top: 75px;
@@ -237,7 +239,7 @@ ol li{
 #clickherecontact {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #E2AE11;
+    border:5px groove #E2AE11;
     width: 175px;
     height: 40px;
     padding-bottom:15px;
@@ -253,7 +255,7 @@ ol li{
     width: 90px;
     height: 35px;
     padding: 0px;
-    border: 5px double red;
+    border: 2px groove red;
     position: relative; 
     margin-bottom: -250px; 
     margin-top: -70px;
@@ -268,8 +270,10 @@ ol li{
 }
 #clickheretoexit {
     width: auto;
+    height: 35px;
     padding: auto;
-    border: 5px double red;
+    border: 5px groove red;
+    padding:5px;
     float: left;
     background-color: rgb(255, 243, 227);
     border-top-left-radius:5px ;
@@ -282,8 +286,8 @@ ol li{
     height: 30px;
     margin-left: 650px;
     margin-top: -80px;
-    padding: 0px;
-    border: 5px double red;
+    padding-top: 0px;
+    border: 5px groove red;
     float: right;
     background-color: rgb(255, 243, 227);
     border-top-left-radius:5px ;
@@ -294,7 +298,8 @@ ol li{
 #forpeoplewhodontknow {
     background-color: rgb(255, 255, 11);
     width: 800px;
-    padding: 0px; 
+    height:45px;
+    padding:0px;
     border: 1px solid black;
     margin: 10px;
     border-top-style: solid;
@@ -337,8 +342,8 @@ ol li{
 #containermiddle {
     width: auto;
     height: auto;
-    margin: ;
-    margin-top:30px;
+    margin: 0px;
+    margin-top:-15px;
     padding: 0px;
     border: 0px;
     background-color: ;
@@ -403,7 +408,7 @@ ol li{
     border:5px solid blue;
     width: 800px;
     height: auto;
-    padding:5px;
+    padding:-10px;
     margin: 0px;
     float: center;
     border-color: 1px solid black
@@ -415,11 +420,12 @@ ol li{
 #whatismilitant {
     background-color: #ffff00;
     border:5px solid blue;
-    padding:5px;
+    padding:15px;
     margin: -20px;
     margin-bottom: 25px;
     float: right;
     width: auto;
+    height:auto;
     border-top-left-radius:10px ;
     border-top-right-radius:10px;
     border-bottom-left-radius:10px;
@@ -468,10 +474,12 @@ ol li{
 #tocontactus {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #E2AE11;
+    border:5px groove #E2AE11;
     width: auto;
     height: auto;
     padding:5px;
+    padding-right:20px;
+    padding-left:20px;
     margin: 25px;
     margin-top: 75px;
     border-top-left-radius:10px ;
@@ -482,10 +490,12 @@ ol li{
 #tocontactusb {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #E2AE11;
+    border:5px groove #E2AE11;
     width: auto;
     height: auto;
     padding:5px;
+    padding-right:20px;
+    padding-left:20px;
     margin: 25px;
     margin-top: 55px;
     border-top-left-radius:10px ;
@@ -496,10 +506,12 @@ ol li{
 #tocontactusend {
     background-color: rgb(255, 244, 164);
     float: left;
-    border:5px solid #E2AE11;
+    border:5px groove #E2AE11;
     width: auto;
     height: auto;
     padding:5px;
+    padding-right:20px;
+    padding-left:20px;
     margin: 25px;
     margin-top: 20px;
     border-top-left-radius:10px ;
